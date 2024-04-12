@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+
+.MuiPaper-root {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.breadcrambs::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiMenu-paper {
+  border: 3px solid rgba(255, 255, 255, 0.4.5);
+  padding: 0 !important;
+}
+.spcesCategory .MuiTableCell-root {
+  padding: 8px !important;
+}
+
+.icon-name {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.icon:hover + .icon-name {
+  display: block;
+  z-index: 100px;
+}
+
+.Image {
+  background-image: url("https://pub-16f3de4d2c4841169d66d16992f9f0d3.r2.dev/assets/bg-5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tr {
+  height: 10px;
+}
+.product {
+  margin: 50px auto;
+  width: 280px;
+  height: 370px;
+  background: white;
+  border: 1px solid #333;
+  position: relative;
+  z-index: 90;
+}
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+.ribbon {
+  font: bold 15px sans-serif;
+  color: #333;
+  text-align: center;
+  position: relative;
+  padding: 5px 0;
+  top: 20px;
+  left: -25px;
+  width: 120px;
+  background-color: #00365a;
+  color: #fff;
+}
+.speech-bubble-right::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid #9ae6b4;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #9ae6b4;
+  border-bottom: 5px solid transparent;
+  right: -10px;
+  top: 0;
+}
+
+.speech-bubble-left::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid #9ae6b4;
+  border-top: 5px solid #9ae6b4;
+  border-bottom: 5px solid transparent;
+  left: -10px;
+  top: 0;
+}
+.mkx .MuiTooltip-tooltip {
+  background-color: white !important;
+  color: black !important;
+  padding: 5px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mkx .MuiTableHead-root .MuiTableRow-root .MuiTableCell-root {
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(40px) !important;
+}
+
+.mkx .MuiTreeItem-root {
+  width: 100% !important;
+}
+.mkx .MuiTreeItem-root .MuiCollapse-root {
+  width: 134% !important;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+li {
+  display: list-item;
+}
+.ql-editor.ql-blank::before {
+  font-style: normal !important;
+}
+.mkx .ql-toolbar.ql-snow,
+.mkx .ql-container.ql-snow {
+  border: 1px solid rgba(9, 9, 11, 0.2) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 3px !important;
+}
+
+.mkx .MuiOutlinedInput-root {
+  padding: 2px !important;
+}
+
+.bg-posgradient {
+  color: white !important;
+  background-image: linear-gradient(to right, #a152cd, #e1654d) !important;
+}
+
+.mkx input[type="number"]::-webkit-inner-spin-button,
+.mkx input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.mkxx input[type="number"]::-webkit-inner-spin-button,
+.mkxx input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.myn1 {
+  animation: mad1 10s linear infinite;
+}
+
+@keyframes mad1 {
+  0% {
+    left: -20%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.myn2 {
+  animation: mad2 10s linear infinite;
+}
+
+@keyframes mad2 {
+  0% {
+    right: -20%;
+  }
+  100% {
+    right: 110%;
+  }
+}
+
+.login-css {
+  filter: drop-shadow(20px 10px 4px #ffd7ae);
+}

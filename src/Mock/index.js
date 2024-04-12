@@ -1,0 +1,70 @@
+import * as Icon from "@mui/icons-material"
+
+export const sidebarData = [
+  { id: 0, navIcon: <Icon.Dashboard className="text-blue-500" />, navItem: "Dashbaord", navLink: "/dashboard" },
+  { id: 2, navIcon: <Icon.Leaderboard className="text-orange-500" />, navItem: "Lead", navLink: "/crm/lead" },
+  { id: 3, navIcon: <Icon.Groups className="text-purple-500" />, navItem: "Meeting", navLink: "/crm/meetings" },
+  { id: 6, navIcon: <Icon.Inbox className="text-yellow-500" />, navItem: "Follow Up", navLink: "/crm/follow-up" },
+  { id: 4, navIcon: <Icon.LocalOffer className="text-red-500" />, navItem: "Deal", navLink: "/crm/deal" },
+  { id: 7, navIcon: <Icon.Campaign className="text-yellow-500" />, navItem: "Campaign", navLink: "/crm/campaign" },
+  { id: 6, navIcon: <Icon.Groups className="text-blue-500" />, navItem: "Creators", navLink: "/crm/creators" },
+  { id: 5, navIcon: <Icon.AddTask className="text-cyan-500" />, navItem: "Task", navLink: "/crm/task" },
+  { id: 9, navIcon: <Icon.Description className="text-rose-500" />, navItem: "Invoice", navLink: "/invoice" },
+  { id: 10, navIcon: <Icon.Domain className="text-gray-500" />, navItem: "Department", navLink: "/department" },
+  { id: 11, navIcon: <Icon.People className="text-cyan-500" />, navItem: "Designation", navLink: "/designation" },
+  { id: 12, navIcon: <Icon.Badge className="text-blue-500" />, navItem: "Employee", navLink: "/employee" },
+  { id: 13, navIcon: <Icon.HowToReg className="text-orange-500" />, navItem: "Attendance", navLink: "/attendance" },
+  { id: 14, navIcon: <Icon.Block className="text-lime-500" />, navItem: "Permission", navLink: "/permission" },
+  { id: 15, navIcon: <Icon.Report className="text-green-500" />, navItem: "Report", navLink: "/report" },
+]
+
+export const leadSorceList = [
+  { label: "Advertisement", value: "Advertisement" },
+  { label: "Cold Call", value: "Cold Call" },
+  { label: "Employee Referral", value: "Employee Referral" },
+  { label: "External Referral", value: "External Referral" },
+  { label: "Online Store", value: "Online Store" },
+  { label: "Public Relation", value: "Public Relation" },
+  { label: "Sales Email Alias", value: "Sales Email Alias" },
+  { label: "Seminar Partner", value: "Seminar Partner" },
+  { label: "Internal Seminar", value: "Internal Seminar" },
+  { label: "Trade Show", value: "Trade Show" },
+  { label: "Web Download", value: "Web Download" },
+  { label: "Web Search", value: "Web Search" },
+  { label: "Chat", value: "Chat" },
+  { label: "Twitter", value: "Twitter" },
+  { label: "Facebook", value: "Facebook" },
+  { label: "Google", value: "Google" },
+  { label: "Website", value: "Website" },
+]
+
+export const ratinglist = [
+  { label: "None", value: "None" },
+  { label: "Acquired", value: "Acquired" },
+  { label: "Active", value: "Active" },
+  { label: "Market Failed", value: "Market Failed" },
+  { label: "Project Cancelled", value: "Project Cancelled" },
+  { label: "Shut Down", value: "Shut Down" },
+]
+
+export const industryList = [
+  { label: "ASp(Application Services Provider)", value: "ASp(Application Services Provider)" },
+  { label: "Data/Telecom OEM", value: "Data/Telecom OEM" },
+  { label: "ERP(Enteprise Resource Planing)", value: "ERP(Enteprise Resource Planing)" },
+  { label: "Government/Military", value: "Government/Military" },
+  { label: "Large Enterprise", value: "Large Enterprise" },
+  { label: "ManagementISV", value: "ManagementISV" },
+  { label: "MSP(Management Service Provider)", value: "MSP(Management Service Provider)" },
+  { label: "Network Equipment Enterprise", value: "Network Equipment Enterprise" },
+  { label: "Optical Networking", value: "Optical Networking" },
+  { label: "Service Provider", value: "Service Provider" },
+  { label: "Small/medium Enterprise", value: "Small/medium Enterprise" },
+  { label: "Storage Eqipment", value: "Storage Eqipment" },
+  { label: "Storage Service provider", value: "Storage Service provider" },
+  { label: "Systems Integrator", value: "Systems Integrator" },
+  { label: "Wireless Industry", value: "Wireless Industry" },
+  { label: "Communications", value: "Communications" },
+  { label: "Education", value: "Education" },
+  { label: "Financial Services", value: "Financial Services" },
+  { label: "Manufacturing", value: "Manufacturing" },
+]
